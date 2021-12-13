@@ -81,10 +81,10 @@ def paddle_b_down():
 #Keyboard Binding
 
 wn.listen()
-wn.onkeypress(paddle_a_up, "w")
-wn.onkeypress(paddle_a_down, "s")
-wn.onkeypress(paddle_b_up, "Up")
-wn.onkeypress(paddle_b_down, "Down")
+wn.onkey(paddle_a_up, "w")
+wn.onkey(paddle_a_down, "s")
+wn.onkey(paddle_b_up, "Up")
+wn.onkey(paddle_b_down, "Down")
 
 #Main Game Loop
 

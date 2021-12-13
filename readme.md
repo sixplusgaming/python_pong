@@ -7,6 +7,9 @@ Controls are very simple. For the left paddle you use W for up and S for down. A
     <img src="images/pong.png">
 </p> 
 
+# Requirements
+- Python 3 or newer
+
 # Installation 
 
 ```sh
